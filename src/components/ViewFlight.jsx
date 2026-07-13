@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Navbar from "./Navbar";
 
 
 const ViewFlights = () => {
@@ -27,8 +28,7 @@ const ViewFlights = () => {
 
   return (
     <div>
-     
-
+      <Navbar/>
       <div className="container mt-4">
         <h2 className="text-center mb-4">View All Flights</h2>
 

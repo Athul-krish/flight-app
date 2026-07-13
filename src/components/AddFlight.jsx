@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import Navbar from './Navbar'
 
 
 const AddFlight = () => {
@@ -71,7 +72,7 @@ const AddFlight = () => {
 
     return (
         <div>
-
+            <Navbar/>
             <div className="container mt-4">
                 <div className="row justify-content-center">
                     <div className="col-12 col-md-6 col-lg-5">
